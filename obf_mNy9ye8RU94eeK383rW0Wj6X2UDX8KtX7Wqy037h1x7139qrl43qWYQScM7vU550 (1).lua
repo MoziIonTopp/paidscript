@@ -1,12 +1,160 @@
---[[
- .____                  ________ ___.    _____                           __                
- |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
- |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
- |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
- |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
-         \/          \/         \/    \/                \/     \/     \/                   
-          \_Welcome to LuaObfuscator.com   (Alpha 0.1.8) ~  Much Love, Ferib 
-
-]]--
-
-do local v0=tonumber;local v1=string.byte;local v2=string.char;local v3=string.sub;local v4=string.gsub;local v5=string.rep;local v6=table.concat;local v7=table.insert;local v8=getfenv or function()return _ENV;end;local v9=setmetatable;local v10=pcall;local v11=select;local v12=unpack or table.unpack;local v13=tonumber;local function v14(v15,v16,...)local v17=1;local v18;v15=v4(v3(v15,5),"..",function(v29)if (v1(v29,2)==79) then local v61=0;while true do if (v61==0) then v18=v0(v3(v29,1,1));return "";end end else local v62=v2(v0(v29,16));if v18 then local v72=0;local v73;while true do if (1==v72) then return v73;end if (v72==0) then v73=v5(v62,v18);v18=nil;v72=1;end end else return v62;end end end);local function v19(v30,v31,v32)if v32 then local v63=(v30/((2 -0)^(v31-(126 -(114 + 3 + 8)))))%((2 + 0 + 0)^(((v32-(1 + 0)) -(v31-(3 -2))) + (3 -(1 + 1))));return v63-(v63%(1 + 0 + 0));else local v64=(1 + 1)^(v31-(1 + 0));return (((v30%(v64 + v64))>=v64) and (239 -(203 + 35))) or (268 -(155 + 113));end end local function v20()local v37=v1(v15,v17,v17);v17=v17 + 1;return v37;end local function v21()local v38,v39=v1(v15,v17,v17 + (417 -(262 + 153)));v17=v17 + 1 + 1;return (v39 * (734 -(477 + 1))) + v38;end local function v22()local v40,v41,v42,v43=v1(v15,v17,v17 + 2 + (1955 -(966 + 988)));v17=v17 + 4 + 0;return (v43 * (55871142 -39093926)) + (v42 * (66325 -(282 + 507))) + (v41 * (148 + 108)) + v40;end local function v23()local v44=v22();local v45=v22();return (( -((4 -2) + 0) * v19(v45,72 -40)) + 1) * ((2 -0)^(v19(v45,21,63 -32) -(2870 -1847))) * ((((v19(v45,434 -(297 + 136),38 -18) * (((536 + 436) -(524 + 446))^(88 -56))) + v44)/(((2213 -765) -(133 + 1313))^(1036 -(133 + 851)))) + (515 -(240 + 274)));end local function v24(v33)local v46;if  not v33 then local v65=0;while true do if ((1825 -(1653 + 172))==v65) then v33=v22();if (v33==(0 -0)) then return "";end break;end end end v46=v3(v15,v17,(v17 + v33) -(1205 -(24 + (2890 -(641 + 1069)))));v17=v17 + v33;local v47={};for v59=(1 + 1) -1, #v46 do v47[v59]=v2(v1(v3(v46,v59,v59)));end return v6(v47);end local v25=v22;local function v26(...)return {...},v11("#",...);end local function v27()local v48=0 + 0;local v49;local v50;local v51;local v52;local v53;local v54;local v55;while true do if (v48==(1 + 1)) then v53=nil;v54=nil;v48=3 + 0;end if (v48~=(1 + 0)) then else v51=nil;v52=nil;v48=2;end if (v48==(3 + 0)) then v55=nil;while true do local v74=0;while true do if (v74==(2 -1)) then if (v49==(2 + 0)) then local v90=0;while true do if (v90~=(1 + 0)) then else for v103=2 -1,v22() do local v104=1770 -(1726 + 44);local v105;while true do if (v104==(0 + 0)) then v105=v20();if (v19(v105,2 -1,1 + 0)==(843 -(815 + 28))) then local v114=491 -(138 + 353);local v115;local v116;local v117;local v118;local v119;while true do if (v114~=(0 -0)) then else v115=1454 -(507 + 947);v116=nil;v114=1 + 0;end if (v114==1) then v117=nil;v118=nil;v114=1515 -(616 + 897);end if (v114==(1 + 1)) then v119=nil;while true do if (v115==(2 + 0)) then while true do if (v116==(2 + 0)) then local v139=0 + 0;while true do if (v139==(0 -0)) then local v152=0;local v153;while true do if (v152==(0 + 0)) then v153=0 + 0;while true do if (v153==(1 + 0)) then v139=1167 -(25 + 1141);break;end if ((0 -0)~=v153) then else local v158=0;while true do if (v158~=(1666 -(1061 + 604))) then else v153=1;break;end if ((0 + 0)==v158) then if (v19(v118,1 + 0,3 -2)~=(1 + 0)) then else v119[7 -5]=v55[v119[2 + 0]];end if (v19(v118,1694 -(724 + 968),3 -1)==(1 -0)) then v119[3]=v55[v119[7 -4]];end v158=1272 -(558 + 713);end end end end break;end end end if (v139~=(1 + 0)) then else v116=3;break;end end end if (v116==(1294 -(1115 + 176))) then if (v19(v118,3,441 -(279 + 159))~=(1 -0)) then else v119[4]=v55[v119[4]];end v50[v103]=v119;break;end if (v116~=1) then else local v141=0 -0;local v142;local v143;while true do if (v141==(2 -1)) then while true do if (v142==(607 -(487 + 120))) then v143=0;while true do if (v143~=(611 -(521 + 89))) then else v116=3 -1;break;end if (v143==(0 + 0)) then local v159=1765 -(358 + 1407);while true do if (v159==(785 -(28 + 756))) then v143=2 -1;break;end if (v159~=0) then else v119={v21(),v21(),nil,nil};if (v117==(0 -0)) then local v164=0;local v165;local v166;local v167;while true do if (v164~=(442 -(362 + 79))) then else v167=nil;while true do if (v165~=(1745 -(640 + 1105))) then else v166=0 + 0;v167=nil;v165=1 + 0;end if (v165==(244 -(73 + 170))) then while true do if (v166==0) then v167=0;while true do if (v167==0) then v119[899 -(682 + 214)]=v21();v119[1719 -(818 + 897)]=v21();break;end end break;end end break;end end break;end if ((634 -(210 + 424))==v164) then v165=0 -0;v166=nil;v164=510 -(350 + 159);end end elseif (v117==(3 -2)) then v119[5 -2]=v22();elseif (v117==(119 -(55 + 62))) then v119[8 -5]=v22() -((596 -(278 + 316))^(49 -33));elseif (v117==3) then local v170=0 + 0;while true do if (v170==(0 -0)) then v119[1876 -(982 + 891)]=v22() -((2 + 0)^(43 -27));v119[10 -6]=v21();break;end end end v159=1 + 0;end end end end break;end end break;end if (v141~=0) then else v142=0 + 0;v143=nil;v141=1;end end end if (v116~=(1471 -(907 + 564))) then else local v144=0 -0;local v145;while true do if (v144~=(1092 -(776 + 316))) then else v145=943 -(232 + 711);while true do if (v145~=1) then else v116=803 -(752 + 50);break;end if (v145==(0 -0)) then v117=v19(v105,2 -0,6 -3);v118=v19(v105,55 -(41 + 10),656 -(48 + 602));v145=1 + 0;end end break;end end end end break;end if (v115~=(515 -(46 + 469))) then else local v135=250 -(176 + 74);local v136;while true do if (v135~=(0 -0)) then else v136=0 + 0;while true do if (v136==(1 + 0)) then v115=1 + 0;break;end if (v136==0) then local v154=0 -0;while true do if (v154~=(1554 -(1175 + 378))) then else v136=1;break;end if (v154==0) then v116=0 -0;v117=nil;v154=559 -(8 + 550);end end end end break;end end end if (v115==(626 -(382 + 243))) then local v137=0 + 0;while true do if (v137==(0 + 0)) then v118=nil;v119=nil;v137=1692 -(1411 + 280);end if ((1809 -(1752 + 56))==v137) then v115=2 -0;break;end end end end break;end end end break;end end end v49=2 + 1;break;end if ((0 + 0)~=v90) then else for v106=1 + 0,v54 do local v107=0 -0;local v108;local v109;local v110;while true do if (v107~=(1687 -(504 + 1183))) then else v108=537 -(440 + 97);v109=nil;v107=1 -0;end if (v107==(1 -0)) then v110=nil;while true do if (v108==(1 + 0)) then if (v109==(1 + 0)) then v110=v20()~=(0 + 0);elseif (v109==(1 + 1)) then v110=v23();elseif (v109==3) then v110=v24();end v55[v106]=v110;break;end if (v108==(0 -0)) then v109=v20();v110=nil;v108=1;end end break;end end end v53[796 -(41 + 752)]=v20();v90=1 -0;end end end if (v49==0) then local v91=0;local v92;while true do if (v91~=(0 + 0)) then else v92=0 + 0;while true do if (v92==(0 -0)) then v50={};v51={};v92=641 -(513 + 127);end if ((3 -2)==v92) then v52={};v49=2 -1;break;end end break;end end end break;end if (v74==(0 -0)) then if (v49==(1 + 0)) then local v93=0;while true do if (v93~=(1 + 0)) then else v55={};v49=2 + 0;break;end if (v93==(0 -0)) then v53={v50,v51,nil,v52};v54=v22();v93=1;end end end if (v49==(1 + 2)) then for v94=1,v22() do v51[v94-(338 -(6 + 331))]=v27();end for v96=4 -3,v22() do v52[v96]=v22();end return v53;end v74=873 -(753 + 119);end end end break;end if (v48~=(0 + 0)) then else v49=0;v50=nil;v48=2 -1;end end end local function v28(v34,v35,v36)local v56=v34[1];local v57=v34[2];local v58=v34[3];return function(...)local v66=0;local v67;local v68;local v69;local v70;local v71;while true do if (1==v66) then v69={...};v70=v11("#",...) -1;v66=2;end if (v66==3) then A,B=v26(v10(v71));if  not A[1] then local v75=0;local v76;while true do if (v75==0) then v76=v34[4][v67] or "?";error("Script error at ["   .. v76   .. "]:"   .. A[2]);break;end end else return v12(A,2,B);end break;end if (v66==0) then v67=1;v68= -1;v66=1;end if (2==v66) then v71=nil;v71=function()local v77=v56;local v78=v57;local v79=v58;local v80=v26;local v81={};local v82={};local v83={};for v87=(131 + 652) -(756 + 10 + 17),v70 do if (((252 + 2840)<(9107 -5876)) and (v87>=v79)) then v81[v87-v79]=v69[v87 + (1 -0)];else v83[v87]=v69[v87 + 1 + 0];end end local v84=(v70-v79) + 1 + 0;local v85;local v86;while true do local v88=(0 + 0) -(0 -0);local v89;while true do if (((6081 -1808)>=((10586 + 5755) -12638)) and (v88==(1808 -(1552 + 256)))) then v89=0 + 0;while true do if (((5007 -(13 + 654))==(6637 -2297)) and (v89==(0 + 0))) then local v111=0 + 0;while true do if (((4324 + 100)<(6090 -(797 + 386))) and (v111==(0 -0))) then v85=v77[v67];v86=v85[447 -(42 + 404)];v111=1;end if ((v111==(1 + 0)) or ((9767 -6575)>=(4361 -(400 + 254)))) then v89=1 + 0;break;end end end if (((3724 -((167 -(10 + 54)) + 91))<(14480 -9577)) and ((1 + 0)==v89)) then if (((2055 -705)==(1781 -(137 + 294))) and (v86<=(879 -(828 + 49)))) then if (((153 + 137)==(1533 -(709 + 534))) and (v86<=((3591 -2568) -(597 + 426)))) then do return;end elseif ((v86==(1 + 0)) or (((4191 -2419) -(57 + 796))>=((1211 -377) + 481))) then local v123=(1794 -(722 + 1072)) + 0;local v124;local v125;local v126;local v127;while true do if ((((8074 -(242 + 311)) -4708)>(6554 -4510)) and ((1903 -(1694 + 208))==v123)) then v126=nil;v127=nil;v123=495 -(460 + 33);end if (((6240 -(513 + 1185))<=(3225 + 1528)) and (v123==(0 -0))) then v124=69 -(48 + 21);v125=nil;v123=1 + 0;end if (((3948 -1522)<(526 + 2619)) and (v123==(6 -4))) then while true do if (((4787 -(941 + 206))==((11696 -(882 + 938)) -6236)) and (v124==(158 -(57 + 101)))) then local v138=819 -(267 + 552);while true do if (((13214 -9876)==(4522 -(488 + 696))) and (v138==(0 + 0))) then v125=918 -(764 + 154);v126=nil;v138=1 + 0 + 0;end if (((1815 -(1129 + 52))>(1441 -943)) and (v138==(2 -1))) then v124=1500 -(282 + 1217);break;end end end if ((v124==(4 -3)) or ((1347 + 2746)==(2606 -(53 + 66 + 248)))) then v127=nil;while true do if (((1037 + 511)>(241 -((2080 -(1439 + 552)) + 2))) and (v125==(203 -(135 + 37 + 31)))) then local v148=0 -0;while true do if ((((823 -(378 + 255)) + 3455)<(6214 -1299)) and (v148==(0 -0))) then local v155=0 + 0;while true do if ((v155==(2 -(1 -0))) or ((5223 -(4050 -1162))>(4515 -1778))) then v148=1 + 0;break;end if (((3117 + 27)<(4281 -(141 + 3 + 171))) and (v155==(1237 -(282 + 955)))) then v126=v85[(1655 -(675 + 979)) + 1];v127=v83[v85[1542 -(972 + 567)]];v155=1784 -(1765 + 18);end end end if ((((2808 -1024) -1012)<=((4129 + 1045) -1922)) and (v148==(2 -1))) then v125=1 -0;break;end end end if (((1960 -(520 + 7))<(1073 + 3761)) and (v125==(1 -0))) then v83[v126 + 1 + 0 + 0]=v127;v83[v126]=v127[v85[1077 -(252 + 821)]];break;end end break;end end break;end end else v83[v85[1541 -(833 + 706)]]=v36[v85[130 -(118 + 9)]];end elseif (((904 -(235 + 21))<((1305 -(383 + 128)) + 2552)) and (v86<=(1381 -(47 + 1331)))) then v83[v85[1 + 1]]=v83[v85[(719 -(540 + 176)) -0]][v85[752 -(492 + 256)]];elseif ((v86==4) or ((3693 -(109 + 94))>(4935 -(727 + 67)))) then v83[v85[1 + 1]]=v85[11 -8];else local v132=0 + 0;local v133;while true do if ((v132==0) or ((583 + (1200 -(79 + 852)))>=(5925 -1648))) then v133=v85[2 + (1729 -(975 + 754))];v83[v133](v12(v83,v133 + (4 -3),v85[1024 -(118 + 903)]));break;end end end v67=v67 + (2 -1);break;end end break;end end end end;v66=3;end end end;end return v28(v27(),{},v16)(...);end v14("LOL!053O0003043O0067616D6503073O00506C6179657273030B3O004C6F63616C506C6179657203043O004B69636B03443O00452O726F7220436F6465203530332120446574656374656420746861742073637269707420697320706174636865642E2057692O6C20626520666978656420732O6F6E2100073O0012023O00013O0020035O00020020035O00030020015O0004001204000200054O00053O000200016O00017O00073O00023O00023O00023O00023O00023O00023O00033O00",v8(),...);end
+local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
+local GUI = Mercury:Create{
+    Name = "skibidi scripts (Royale High v3)",
+    Size = UDim2.fromOffset(600, 400),
+    Theme = Mercury.Themes.Dark,
+    Link = "skibidiscripts.vercel.app"
+}
+GUI:Notification{
+    Title = "Disclaimer",
+    Text = "Sharing of the script is strictly prohibited.",
+    Duration = 3,
+    Callback = function() end
+}
+GUI:Notification{
+    Title = "Loaded",
+    Text = "AC has been bypassed and script has been loaded.",
+    Duration = 3,
+    Callback = function() end
+}
+local Tab = GUI:Tab{
+    Name = "Diamond Section",
+    Icon = "rbxassetid://8569322835"
+}
+Tab:Toggle{
+	Name = "Enable Diamond Dupe",
+	StartingState = false,
+	Description = "Once turned on, your diamonds will start duplicating every 2 minutes",
+	Callback = function(state) end
+}
+Tab:Toggle{
+	Name = "Diamond Rollback",
+	StartingState = false,
+	Description = "Once turned on, buy anything from the store and then click the rejoin button below",
+	Callback = function(state) end
+}
+Tab:Button{
+	Name = "Rejoin (Rollback)",
+	Description = "Rejoins if you have rollback turned on",
+	Callback = function() end
+}
+local Tab = GUI:Tab{
+	Name = "Autofarms",
+	Icon = "rbxassetid://8569322835"
+}
+Tab:Toggle{
+	Name = "Level Farm",
+	StartingState = false,
+	Description = "Starts farming levels till level 75 then stops",
+	Callback = function(state) end
+}
+Tab:Toggle{
+	Name = "Diamond Farm",
+	StartingState = false,
+	Description = "Will start farming the diamonds around the map and change servers after 10 min",
+	Callback = function(state) end
+}
+Tab:Toggle{
+	Name = "Auto Bubbles",
+	StartingState = false,
+	Description = "Auto pops the AFK bubbles",
+	Callback = function(state) end
+}
+Tab:Toggle{
+	Name = "Anti-AFK",
+	StartingState = false,
+	Description = "Prevents you from disconnection every 20 minutes",
+	Callback = function(state) end
+}
+Tab:Toggle{
+	Name = "Auto Wish Fountain",
+	StartingState = false,
+	Description = "Auto wishes on the fountain everytime cooldown resets",
+	Callback = function(state) end
+}
+local Tab = GUI:Tab{
+	Name = "Server Hop",
+	Icon = "rbxassetid://8569322835"
+}
+Tab:Button{
+	Name = "Hop to High Player server",
+	Description = "Hops to a server with high player count",
+	Callback = function() end
+}
+Tab:Button{
+	Name = "Hop to Low Player server",
+	Description = "Hops to servers with 1-2 players",
+	Callback = function() end
+}
+Tab:Button{
+	Name = "Hop to Random Server",
+	Description = "Hops to a random server",
+	Callback = function() end
+}
+local Tab = GUI:Tab{
+	Name = "Teleports",
+	Icon = "rbxassetid://8569322835"
+}
+Tab:Button{
+	Name = "Fountain",
+	Description = "Teleports to fountain",
+	Callback = function() end
+}
+Tab:Button{
+	Name = "Campus",
+	Description = "Teleports to campus",
+	Callback = function() end
+}
+Tab:Button{
+	Name = "Random Spot",
+	Description = "Teleports to a random spot",
+	Callback = function() end
+}
+local Tab = GUI:Tab{
+	Name = "Clothing Items Dupe",
+	Icon = "rbxassetid://8569322835"
+}
+Tab:Toggle{
+	Name = "Halo Dupe",
+	StartingState = false,
+	Description = "Make sure you're wearing it",
+	Callback = function(state) end
+}
+Tab:Toggle{
+	Name = "Bodice Dupe",
+	StartingState = false,
+	Description = "Make sure you're wearing it",
+	Callback = function(state) end
+}
+Tab:Toggle{
+	Name = "Skirt Dupe",
+	StartingState = false,
+	Description = "Make sure you're wearing it",
+	Callback = function(state) end
+}
+Tab:Toggle{
+	Name = "Shoes Dupe",
+	StartingState = false,
+	Description = "Make sure you're wearing it",
+	Callback = function(state) end
+}
+Tab:Toggle{
+	Name = "Gloves Dupe",
+	StartingState = false,
+	Description = "Make sure you're wearing it",
+	Callback = function(state) end
+}
+Tab:Toggle{
+	Name = "Full Set Dupe",
+	StartingState = false,
+	Description = "Breaks occasionally if not used properly, please make sure the set is the only thing on your avatar",
+	Callback = function(state) end
+}
+local Tab = GUI:Tab{
+	Name = "Feedback",
+	Icon = "rbxassetid://8569322835"
+}
+Tab:Textbox{
+	Name = "Sends your feedback / bug report to a webhook",
+	Callback = function(text) end
+}
